@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var resultLabel: UILabel!
     
+    //basic implementation for now
     func calculate(l: Int, r: Int, sign: String) -> Int {
         var result: Int = 0
         switch sign {
